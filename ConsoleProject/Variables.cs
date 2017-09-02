@@ -32,6 +32,7 @@ namespace ConsoleProject
             //Console.WriteLine(isWorking);
             #endregion
 
+            #region Format String
             //Format String
             //0 represents the FIRST argument after the Format String which is byte.MinValue
             //1 represents the SECOND argument which is byte.MaxValue
@@ -39,6 +40,10 @@ namespace ConsoleProject
 
             //Float
             Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
+            #endregion
+
+            //Constants
+            Console.WriteLine();
 
         }
     }
