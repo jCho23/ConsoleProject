@@ -42,8 +42,12 @@ namespace ConsoleProject
             Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
             #endregion
 
+            #region Constants
             //Constants
-            Console.WriteLine();
+            //Notice that the prefix for Constants is Const
+            const float Pi = 3.14f;
+            #endregion
+
 
         }
     }
