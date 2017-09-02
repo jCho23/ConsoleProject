@@ -6,22 +6,23 @@ namespace ConsoleProject
     {
         static void Main(string[] args)
         {
+            #region Basic Variables
             //This is how to write Variables 
-			//byte number = 8;
-			//int count = 10;
-			//float totalPrice = 20.95f;
-			//char character = 'J';
-			//string firstName = "June";
-			//bool isWorking = true;
+            //byte number = 8;
+            //int count = 10;
+            //float totalPrice = 20.95f;
+            //char character = 'J';
+            //string firstName = "June";
+            //bool isWorking = true;
 
             //You can alaso write Variables like this.
             //Notice that you can hover over var and see what the type is
-			//var number = 8;
-			//var count = 10;
-			//var totalPrice = 20.95f;
-			//var character = 'J';
-			//var firstName = "June";
-			//var isWorking = true;
+            //var number = 8;
+            //var count = 10;
+            //var totalPrice = 20.95f;
+            //var character = 'J';
+            //var firstName = "June";
+            //var isWorking = true;
 
             //Console.WriteLine(number);
             //Console.WriteLine(count);
@@ -29,9 +30,11 @@ namespace ConsoleProject
             //Console.WriteLine(character);
             //Console.WriteLine(firstName);
             //Console.WriteLine(isWorking);
+            #endregion
 
             //Format String
-            Console.WriteLine();
+            //0 represents the FIRST argument after the Format String
+            Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
 
         }
     }
