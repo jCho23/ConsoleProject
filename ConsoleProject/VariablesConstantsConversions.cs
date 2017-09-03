@@ -3,7 +3,7 @@ using System.Linq.Expressions;
 
 namespace ConsoleProject
 {
-    class Variables
+    class VariablesConstantsConversions
     {
         static void Main(string[] args)
         {

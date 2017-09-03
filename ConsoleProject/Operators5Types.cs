@@ -11,6 +11,7 @@ namespace ConsoleProject
                 //int b - a++;
                 // Here a = 2, b= 1
     //Comparison
+        //Result of a Comparison is ALWAYS a Boolean Value
     //Assignment
     //Logical
         //Used in Boolean Expressions
@@ -20,7 +21,7 @@ namespace ConsoleProject
             //Windows APIs
             //Sockets
        
-    public class Operators
+    class Operators5Types
     {
         static void Main(string[] args)
         {
@@ -30,7 +31,14 @@ namespace ConsoleProject
             //Console.WriteLine((float)a / (float)b);
 
             //Operator Presedence
+            var a = 1;
+            var b = 2;
+            var c = 3;
 
+			Console.WriteLine(a + b * c);
+            //Notice that Multiplication and Division takes Presedence 
+            //over Addition and Subtraction 
+           
 
 
         }
