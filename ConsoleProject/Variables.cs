@@ -105,8 +105,6 @@ namespace ConsoleProject
             //    Console.WriteLine("True or false");
             //}
 			#endregion
-
-
 		}
     }
 }
