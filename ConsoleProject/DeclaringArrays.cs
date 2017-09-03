@@ -1,6 +1,8 @@
 ﻿using System;
 namespace ConsoleProject
 {
+
+    #region DeclaringArrays
     public class DeclaringArrays
     {
         int number1;
@@ -13,9 +15,12 @@ namespace ConsoleProject
         //Array is an Object
         int[] numbers = new int[3];
     }
+    #endregion
 
+    #region AccessingArrays
     public class AccessingArrays
     {
         int[] numbers = new int[3] { 1, 2, 3 };
     }
+    #endregion
 }
