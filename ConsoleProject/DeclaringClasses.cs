@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Linq.Expressions;
+
 namespace ConsoleProject
 {
-    public class DeclaringClasses
+    class DeclaringClasses
     {
         #region CreatingObjects
         //creating Objects
@@ -33,5 +34,10 @@ namespace ConsoleProject
         //    }
         //}
         #endregion
+
+        static void Main (string[] args)
+        {
+            
+        }
     }
 }
