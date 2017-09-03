@@ -36,10 +36,10 @@ namespace ConsoleProject
             //Format String
             //0 represents the FIRST argument after the Format String which is byte.MinValue
             //1 represents the SECOND argument which is byte.MaxValue
-            Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
+            //Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
 
             //Float
-            Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
+            //Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
             #endregion
 
             #region Constants
@@ -48,16 +48,20 @@ namespace ConsoleProject
             //const float Pi = 3.14f;
             #endregion
 
+            #region Implict Type Conversion
             //Implict Type Conversion
             //byte b = 1;
             //int i = b;
             //Console.WriteLine(i);
+            #endregion
 
             //Explict Type Conversion
             //Notice that we are CASTING byte since 1 falls into the 255 limit of byte
             //int i = 1;
             //byte b = (byte)i;
             //Console.WriteLine(b);
+
+            //Non-Compatiable Types
 
 
 
