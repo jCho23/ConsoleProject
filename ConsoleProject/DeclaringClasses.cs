@@ -3,6 +3,19 @@ using System.Linq.Expressions;
 
 namespace ConsoleProject
 {
+    //We created a new class here
+    public class Person
+    {
+        //Here we are delaring a couple of Fields
+        public string FirstName;
+        public string LastName;
+
+        public void Introduce()
+        {
+            Console.WriteLine("My name is" + FirstName + "" + LastName);
+        }
+    }
+
     class DeclaringClasses
     {
         #region CreatingObjects
