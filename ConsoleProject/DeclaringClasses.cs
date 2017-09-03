@@ -55,9 +55,12 @@ namespace ConsoleProject
             var june = new Person();
             june.FirstName = "June";
             june.LastName = "Cho";
-
             june.Introduce();
-                
+
+            Calculator calculator = new Calculator();
+            var result = calculator.Add(1, 2);
+            Console.WriteLine(result);
+
         }
     }
 }
