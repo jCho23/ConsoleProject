@@ -14,5 +14,8 @@ namespace ConsoleProject
         int[] numbers = new int[3];
     }
 
-
+    public class AccessingArrays
+    {
+        
+    }
 }
