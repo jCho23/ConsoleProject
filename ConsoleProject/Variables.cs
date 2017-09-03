@@ -55,11 +55,13 @@ namespace ConsoleProject
             //Console.WriteLine(i);
             #endregion
 
+            #region Explicit Type Conversion
             //Explict Type Conversion
             //Notice that we are CASTING byte since 1 falls into the 255 limit of byte
             //int i = 1;
             //byte b = (byte)i;
             //Console.WriteLine(b);
+            #endregion
 
             //Non-Compatiable Types
 
