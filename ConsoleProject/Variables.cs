@@ -93,17 +93,17 @@ namespace ConsoleProject
             //Notice that STRING and BOOL are not compatiable
             //thus we CAN'T use EXPLICIT CASTING
             //So we are using the CONVERT class
-            try
-            {
-                string str = "true";
-                bool b = Convert.ToBoolean(str);
-                Console.WriteLine(b);
-            }
+            //try
+            //{
+            //    string str = "true";
+            //    bool b = Convert.ToBoolean(str);
+            //    Console.WriteLine(b);
+            //}
 
-            catch
-            {
-                Console.WriteLine("True or false");
-            }
+            //catch
+            //{
+            //    Console.WriteLine("True or false");
+            //}
 			#endregion
 
 
