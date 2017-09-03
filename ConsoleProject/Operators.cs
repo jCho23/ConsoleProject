@@ -12,6 +12,8 @@ namespace ConsoleProject
     //Comparison
     //Assignment
     //Logical
+        //Used in Boolean Expressions
+        //Often used in Conditional Statements
     //Bitwise
     public class Operators
     {
