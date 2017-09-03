@@ -48,6 +48,8 @@ namespace ConsoleProject
             const float Pi = 3.14f;
             #endregion
 
+            //Implict Type Conversion
+
 
         }
     }
