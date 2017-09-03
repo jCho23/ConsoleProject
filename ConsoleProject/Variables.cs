@@ -64,6 +64,10 @@ namespace ConsoleProject
             #endregion
 
             //Non-Compatiable Types
+            //Notice that we have to CONVERT the type
+            var number = "1234";
+            int i = Convert.ToInt32(number);
+            Console.WriteLine(i);
 
 
 
