@@ -72,7 +72,7 @@ namespace ConsoleProject
 
             //Since byte (255) can't support "1234" 
             //we put this TRY CATCH statement to handle the EXCEPTION
-            //and alert the user with the string message
+            //and alert the user with the string message and the app won't crash
             try
             {
 				var number = "1234";
