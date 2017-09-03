@@ -1,10 +1,11 @@
 ﻿using System;
 namespace ConsoleProject
 {
-    public class Structures
+    public struct Structures
     {
-        public Structures()
-        {
-        }
+        //use Structure when you use small, lightweight objects
+        public int Red;
+        public int Green;
+        public int Blue;
     }
 }
