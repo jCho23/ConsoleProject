@@ -64,6 +64,7 @@ namespace ConsoleProject
             //Console.WriteLine(b);
             #endregion
 
+            #region Non-Compatiable Types
             //Non-Compatiable Types
             //Notice that we have to CONVERT the type
 
@@ -71,15 +72,16 @@ namespace ConsoleProject
             //int i = Convert.ToInt32(number);
             //Console.WriteLine(i);
 
+
             //Since byte (255) can't support "1234" 
             //we put this TRY CATCH statement to handle the EXCEPTION
             //and alert the user with the string message and the app won't crash
 
             //try
             //{
-				//var number = "1234";
-				//byte b = Convert.ToByte(number);
-				//Console.WriteLine(b);
+            //var number = "1234";
+            //byte b = Convert.ToByte(number);
+            //Console.WriteLine(b);
             //}
 
             //catch (Exception)
@@ -88,6 +90,9 @@ namespace ConsoleProject
             //}
 
 
+            //Notice that STRING and BOOL are not compatiable
+            //thus we CAN'T use EXPLICIT CASTING
+            //So we are using the CONVERT class
             try
             {
                 string str = "true";
@@ -99,8 +104,9 @@ namespace ConsoleProject
             {
                 Console.WriteLine("True or false");
             }
+			#endregion
 
 
-        }
+		}
     }
 }
