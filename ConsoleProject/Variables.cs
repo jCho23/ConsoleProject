@@ -45,10 +45,19 @@ namespace ConsoleProject
             #region Constants
             //Constants
             //Notice that the prefix for Constants is Const
-            const float Pi = 3.14f;
+            //const float Pi = 3.14f;
             #endregion
 
             //Implict Type Conversion
+            //byte b = 1;
+            //int i = b;
+            //Console.WriteLine(i);
+
+            //
+            int i = 1;
+            byte b = (byte)i;
+
+
 
 
         }
