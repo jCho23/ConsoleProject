@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{3C71F35F-8023-4C10-BB48-05F0080F6757}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleProject/DeclaringClasses.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleProject/Calculator.cs">
     <Files>
-      <File FileName="ConsoleProject/VariablesConstantsConversions.cs" Line="6" Column="18" />
-      <File FileName="ConsoleProject/Operators5Types.cs" Line="38" Column="13" />
-      <File FileName="ConsoleProject/DeclaringClasses.cs" Line="1" Column="1" />
+      <File FileName="ConsoleProject/VariablesConstantsConversions.cs" Line="4" Column="1" />
+      <File FileName="ConsoleProject/Operators5Types.cs" Line="5" Column="9" />
+      <File FileName="ConsoleProject/DeclaringClasses.cs" Line="46" Column="7" />
+      <File FileName="ConsoleProject/Calculator.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

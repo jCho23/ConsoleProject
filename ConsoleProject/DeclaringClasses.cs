@@ -10,9 +10,10 @@ namespace ConsoleProject
         public string FirstName;
         public string LastName;
 
+        //Here we created a Method
         public void Introduce()
         {
-            Console.WriteLine("My name is" + FirstName + "" + LastName);
+            Console.WriteLine("My name is" + FirstName + " " + LastName);
         }
     }
 
@@ -50,7 +51,13 @@ namespace ConsoleProject
 
         static void Main (string[] args)
         {
-            
+            //Now we are creating a OBJECT of Type PERSON
+            var june = new Person();
+            june.FirstName = "June";
+            june.LastName = "Cho";
+
+            june.Introduce();
+                
         }
     }
 }

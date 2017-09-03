@@ -1,7 +1,7 @@
-﻿using System;
+﻿//using System;
 
-namespace ConsoleProject
-{
+//namespace ConsoleProject
+//{
     //CC# has 5 types of Operators
 
     //Arithmetic
@@ -22,26 +22,26 @@ namespace ConsoleProject
             //Windows APIs
             //Sockets
        
-    class Operators5Types
-    {
-        static void Main(string[] args)
-        {
-            //Base Aritmatic
-            //var a = 10;
-            //var b = 3;
-            //Console.WriteLine((float)a / (float)b);
+   // class Operators5Types
+   // {
+   //     static void Main(string[] args)
+   //     {
+   //         //Base Aritmatic
+   //         //var a = 10;
+   //         //var b = 3;
+   //         //Console.WriteLine((float)a / (float)b);
 
-            //Operator Presedence
-            var a = 1;
-            var b = 2;
-            var c = 3;
+   //         //Operator Presedence
+   //         var a = 1;
+   //         var b = 2;
+   //         var c = 3;
 
-			Console.WriteLine(a + b * c);
+			//Console.WriteLine(a + b * c);
             //Notice that Multiplication and Division takes Presedence 
             //over Addition and Subtraction 
            
 
 
-        }
-    }
-}
+//        }
+//    }
+//}
