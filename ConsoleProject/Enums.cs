@@ -72,6 +72,9 @@ namespace ConsoleProject
             //This is how you turn a string into an enum
             //Parsing= String coverting into different types
             var methodName = "Express";
+            //Notice that Parse has two objects
+            //typeOf can be used with "Type" objects
+            var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod),methodName);
         }
     }
 }
