@@ -1,5 +1,6 @@
 ﻿using System;
 
+#region ForLoops
 //For Loops
 //Have 3 parts: 
 //Initization Clause: How many times the loop goes 
@@ -12,16 +13,24 @@
 //foreach (var number in numbers)
 //"number" is local or temporary variable and "numbers" is the list
 //notice the "in" keyword
+#endregion
 
+#region WhileLoops
 //While Loops
 //similar to ForLoop but different syntax
+#endregion
 
+#region DoWhileLoops
 //Do-While Loops
 //Condition is evaulated at the end of the loop
 //You don't need a counter
+#endregion
 
-//
-
+#region BreakAndContinue
+//Break and Continue
+//Break: jumps out of the loop
+//Continue: jumps into the next iteration
+#endregion
 
 namespace ConsoleProject.ControlFlow
 {
