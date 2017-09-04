@@ -49,8 +49,29 @@ namespace ConsoleProject
     //}
     #endregion
 
+    public enum ShippingMethod
+    {
+        RegularAirMail = 1,
+        RegisteredAirMail = 2,
+        Express = 3
+    }
+
     class EnumsString
     {
-        
+        static void Main(string[] args)
+        {
+            var method = ShippingMethod.Express;
+            Console.WriteLine((int)method);
+
+            var methodId = 3;
+            Console.WriteLine((ShippingMethod)methodId);
+
+            //ToString converts an enum to a string
+            Console.WriteLine(method.ToString());
+
+            //This is how you turn a string into an enum
+            //Parsing= String coverting into different types
+            var methodName = "Express";
+        }
     }
 }
