@@ -26,10 +26,32 @@ namespace ConsoleProject.ControlFlow
 //}
 
 {
-    public class ConditionalStatements
+    class ConditionalStatements
     {
-        public ConditionalStatements()
+        static void Main(string[] args)
         {
+            int hour = 10;
+
+            //if Hour is greater than 0 AND less than 12...
+            //CW "It's morning"
+            if (hour > 0 && hour < 12)
+            {
+                Console.WriteLine("It's morning");
+            }
+            else if (hour >= 12 && hour < 18)
+            {
+                Console.WriteLine("It's afternoon");
+            }
+            else
+            {
+                Console.WriteLine("It's night");
+            }
         }
+    }
+
+    class ConditionalOperators
+    {
+
+
     }
 }
