@@ -50,27 +50,45 @@ namespace ConsoleProject.ControlFlow
     //}
     #endregion
 
-    class ConditionalOperators
+    #region ConditionalOperators
+    //class ConditionalOperators
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        bool isGoldCustomer = true;
+
+    //        //float price;
+
+    //        //if (isGoldCustomer)
+    //        //{
+    //        //    price = 19.95f;
+    //        //}
+    //        //else
+    //        //{
+    //        //    price = 29.95f;
+    //        //}
+
+    //        //ConditionalStatement
+    //        //Notice that ":" symbolizes OR
+    //        float price = (isGoldCustomer) ? 19.95f : 29.95f;
+    //        Console.WriteLine(price);
+    //    }
+    //}
+    #endregion
+
+    public enum Seasons
+    {
+        Spring,
+        Winter,
+        Fall,
+        Summer
+    }
+
+    class SwitchCases
     {
         static void Main(string[] args)
         {
-            bool isGoldCustomer = true;
-
-            //float price;
-
-            //if (isGoldCustomer)
-            //{
-            //    price = 19.95f;
-            //}
-            //else
-            //{
-            //    price = 29.95f;
-            //}
-
-            //ConditionalStatement
-            //Notice that ":" symbolizes OR
-            float price = (isGoldCustomer) ? 19.95f : 29.95f;
-            Console.WriteLine(price);
+            
         }
     }
 }
