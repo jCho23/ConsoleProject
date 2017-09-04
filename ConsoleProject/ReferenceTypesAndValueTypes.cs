@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 namespace ConsoleProject
 
 //Two different Types
@@ -56,9 +57,20 @@ namespace ConsoleProject
     {
         static void Main(string[] args)
         {
-            
+            //This "number" is a value type with the Scope of the Main Method
+            //Outside of the Main Method, this variable, (number), has no meaning
+            var number = 1;
+            Increment(number);
+            Console.WriteLine(number);
+
+            //This is ReferenceType
+            var person = new Person() { Age = 20 };
+            MakeOld(person);
+            Console.WriteLine(person.Age);
         }
 
+        //This "number" is stored in a different memory than above
+        //this "number" is limited to this Increment Method
         public static void Increment(int number)
         {
             number += 10;
