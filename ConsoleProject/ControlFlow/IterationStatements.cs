@@ -17,6 +17,10 @@
 //similar to ForLoop but different syntax
 
 //Do-While Loops
+//Condition is evaulated at the end of the loop
+//You don't need a counter
+
+//
 
 
 namespace ConsoleProject.ControlFlow
