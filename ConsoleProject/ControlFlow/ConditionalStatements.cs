@@ -88,7 +88,26 @@ namespace ConsoleProject.ControlFlow
     {
         static void Main(string[] args)
         {
-            
+            var seasons = Seasons.Summer;
+
+            switch (seasons)
+            {
+                case Seasons.Summer:
+                    Console.WriteLine("Catch some waves and daze!");
+                    break;
+
+                case Seasons.Fall:
+                    Console.WriteLine("Beautiful time to see the changes!");
+                    break;
+
+                case Seasons.Winter:
+                    Console.WriteLine("Burrrr, it's chilly out there!");
+                    break;
+
+                default:
+                    Console.WriteLine("Not a valid season");
+                    break;
+            }
         }
     }
 }
