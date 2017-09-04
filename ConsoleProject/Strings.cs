@@ -5,8 +5,8 @@ namespace ConsoleProject
 {
     //Strings are Immutable
     //Once created, Strings can't be changed 
-    public class Strings
-    {
+    //public class Strings
+    //{
         #region StringFormat
         //string firstName = "June";
 
@@ -30,5 +30,25 @@ namespace ConsoleProject
         //The @ symbol creates VerbatimStrings
         //string path = @"c:\projects\projects1\folder1";
         #endregion
+    //}
+
+    class StringDemo
+    {
+        static void Main (string[] args)
+        {
+            //Notice that Strings are CLASSES
+            //These two formats are exactly the same
+            //var knows that this variable is a string
+            var firstName = "June";
+            string lastName = "Cho";
+
+            var fullName = firstName + " " + lastName;
+
+            var myFullName = string.Format("My name is {0} {1}", firstName, lastName);
+
+            //String.Join
+
+        }
     }
+
 }
