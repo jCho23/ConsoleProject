@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+
 namespace ConsoleProject
 {
+    //Strings are Immutable
+    //Once created, Strings can't be changed 
     public class Strings
     {
         #region StringFormat
@@ -19,5 +22,12 @@ namespace ConsoleProject
         //Second argument is the array that we want to combine
         //string list = string.Join(",", numbers);
         #endregion
+
+        //VerbatimStrings
+
+        string path = "c:\\projects\\project1\\folder1";
+
+
+
     }
 }
