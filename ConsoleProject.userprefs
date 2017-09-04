@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{3C71F35F-8023-4C10-BB48-05F0080F6757}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleProject/Enums.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleProject/ReferenceTypesAndValueTypes.cs">
     <Files>
-      <File FileName="ConsoleProject/Enums.cs" Line="57" Column="6" />
+      <File FileName="ConsoleProject/Enums.cs" Line="25" Column="1" />
+      <File FileName="ConsoleProject/ReferenceTypesAndValueTypes.cs" Line="4" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
