@@ -3,7 +3,6 @@
 /Users/junecho/Projects/ConsoleProject/ConsoleProject/bin/Debug/netcoreapp1.1/ConsoleProject.runtimeconfig.dev.json
 /Users/junecho/Projects/ConsoleProject/ConsoleProject/bin/Debug/netcoreapp1.1/ConsoleProject.dll
 /Users/junecho/Projects/ConsoleProject/ConsoleProject/bin/Debug/netcoreapp1.1/ConsoleProject.pdb
-/Users/junecho/Projects/ConsoleProject/ConsoleProject/obj/Debug/netcoreapp1.1/ConsoleProject.csprojResolveAssemblyReference.cache
 /Users/junecho/Projects/ConsoleProject/ConsoleProject/obj/Debug/netcoreapp1.1/ConsoleProject.csproj.CoreCompileInputs.cache
 /Users/junecho/Projects/ConsoleProject/ConsoleProject/obj/Debug/netcoreapp1.1/ConsoleProject.AssemblyInfo.cs
 /Users/junecho/Projects/ConsoleProject/ConsoleProject/obj/Debug/netcoreapp1.1/ConsoleProject.dll
