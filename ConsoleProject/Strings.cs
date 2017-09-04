@@ -47,6 +47,11 @@ namespace ConsoleProject
             var myFullName = string.Format("My name is {0} {1}", firstName, lastName);
 
             //String.Join
+            var names = new string[3] { "Mike", "Magic", "Kobe" };
+            //First Argurment is the seperator ","
+            //Second Argument is the array (names)
+            var formattedNames = string.Join(",", names);
+            Console.WriteLine(formattedNames);
 
         }
     }
