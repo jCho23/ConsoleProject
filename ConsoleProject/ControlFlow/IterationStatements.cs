@@ -14,6 +14,8 @@
 //notice the "in" keyword
 
 //While Loops
+//similar to ForLoop but different syntax
+
 //Do-While Loops
 
 
