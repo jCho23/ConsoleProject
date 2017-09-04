@@ -7,53 +7,64 @@ namespace ConsoleProject
     //Once created, Strings can't be changed 
     //public class Strings
     //{
-        #region StringFormat
-        //string firstName = "June";
+    #region StringFormat
+    //string firstName = "June";
 
-        //StringFormat
-        //Placeholders are indicated by curly braces {}
-        //string name = string.Format("{0} {1}", firstName, lastName);
-        #endregion
+    //StringFormat
+    //Placeholders are indicated by curly braces {}
+    //string name = string.Format("{0} {1}", firstName, lastName);
+    #endregion
 
-        #region Using StringJoin
-        //Using String Join
-        //var numbers = new int[3] { 1, 2, 3 };
-        //First argument is a sepeator
-        //Second argument is the array that we want to combine
-        //string list = string.Join(",", numbers);
-        #endregion
+    #region Using StringJoin
+    //Using String Join
+    //var numbers = new int[3] { 1, 2, 3 };
+    //First argument is a sepeator
+    //Second argument is the array that we want to combine
+    //string list = string.Join(",", numbers);
+    #endregion
 
-        #region VerbatimStrings
-        //VerbatimStrings
+    #region VerbatimStrings
+    //VerbatimStrings
 
-        //string path = "c:\\projects\\project1\\folder1";
-        //The @ symbol creates VerbatimStrings
-        //string path = @"c:\projects\projects1\folder1";
-        #endregion
+    //string path = "c:\\projects\\project1\\folder1";
+    //The @ symbol creates VerbatimStrings
+    //string path = @"c:\projects\projects1\folder1";
+    #endregion
     //}
 
-    class StringDemo
-    {
-        static void Main (string[] args)
-        {
-            //Notice that Strings are CLASSES
-            //These two formats are exactly the same
-            //var knows that this variable is a string
-            var firstName = "June";
-            string lastName = "Cho";
+    #region StringDemo
+    //    class StringDemo
+    //    {
+    //        static void Main (string[] args)
+    //        {
+    //            //Notice that Strings are CLASSES
+    //            //These two formats are exactly the same
+    //            //var knows that this variable is a string
+    //            var firstName = "June";
+    //            string lastName = "Cho";
 
-            var fullName = firstName + " " + lastName;
+    //            var fullName = firstName + " " + lastName;
 
-            var myFullName = string.Format("My name is {0} {1}", firstName, lastName);
+    //            var myFullName = string.Format("My name is {0} {1}", firstName, lastName);
 
-            //String.Join
-            var names = new string[3] { "Mike", "Magic", "Kobe" };
-            //First Argurment is the seperator ","
-            //Second Argument is the array (names)
-            var formattedNames = string.Join(",", names);
-            Console.WriteLine(formattedNames);
+    //            //String.Join
+    //            var names = new string[3] { "Mike", "Magic", "Kobe" };
+    //            //First Argurment is the seperator ","
+    //            //Second Argument is the array (names)
+    //            var formattedNames = string.Join(",", names);
 
-        }
-    }
+    //            //VerbatimStrings
+    //            var text = "Hi John\nLook into the following paths\nc:\\folder1\\folder2\\nc:\\folder3\\folder4";
 
+    //            //This is using VerbatimStrings
+    //            //With the "@" symbol, you can make the code more readable
+    //			var text = @"Hi John
+    //Look into the following paths
+    //c:\folder1\folder2
+    //c:\folder3\folder4";
+
+    //Console.WriteLine(formattedNames);
+    //    }
+    //}
+    #endregion
 }
