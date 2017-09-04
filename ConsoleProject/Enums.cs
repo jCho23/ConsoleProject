@@ -22,27 +22,30 @@ namespace ConsoleProject
     //var method = ShippingMethod.Express;
     #endregion
 
+    #region EnumsInt
     //This is how you convert an enum TO and FROM an int
-    public enum ShippingMethod
-    {
-        RegularAirMail = 1,
-        RegisteredAirMail = 2,
-        ExpressMail = 3
-    }
 
-    class EnumsDemo
-    {
-        static void Main(string[] args)
-        {
-            var method = ShippingMethod.ExpressMail;
-            //Here we are CASTING method to an int
-            //This will output the consol to 3, ExpressMail
-            Console.WriteLine((int)method);
+    //public enum ShippingMethod
+    //{
+    //    RegularAirMail = 1,
+    //    RegisteredAirMail = 2,
+    //    ExpressMail = 3
+    //}
 
-            //We are converting the number (methodId) into a ShippingMethod
-            //Thus we are using CASTING to convert an integer to a ShippingMethod
-            var methodId = 3;
-            Console.WriteLine((ShippingMethod)methodId);
-        }
-    }
+    //class EnumsDemo
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        var method = ShippingMethod.ExpressMail;
+    //        //Here we are CASTING method to an int
+    //        //This will output the consol to 3, ExpressMail
+    //        Console.WriteLine((int)method);
+
+    //        //We are converting the number (methodId) into a ShippingMethod
+    //        //Thus we are using CASTING to convert an integer to a ShippingMethod
+    //        var methodId = 3;
+    //        Console.WriteLine((ShippingMethod)methodId);
+    //    }
+    //}
+    #endregion
 }
