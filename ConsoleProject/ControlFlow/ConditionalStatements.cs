@@ -56,16 +56,21 @@ namespace ConsoleProject.ControlFlow
         {
             bool isGoldCustomer = true;
 
-            float price;
+            //float price;
 
-            if (isGoldCustomer)
-            {
-                price = 19.95f;
-            }
-            else
-            {
-                price = 29.95f;
-            }
+            //if (isGoldCustomer)
+            //{
+            //    price = 19.95f;
+            //}
+            //else
+            //{
+            //    price = 29.95f;
+            //}
+
+            //ConditionalStatement
+            //Notice that ":" symbolizes OR
+            float price = (isGoldCustomer) ? 19.95f : 29.95f;
+            Console.WriteLine(price);
         }
     }
 }
