@@ -48,4 +48,9 @@ namespace ConsoleProject
     //    }
     //}
     #endregion
+
+    class EnumsString
+    {
+        
+    }
 }
