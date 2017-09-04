@@ -22,8 +22,19 @@ namespace ConsoleProject
     //var method = ShippingMethod.Express;
     #endregion
 
+    public enum ShippingMethod
+    {
+        RegularAirMail = 1,
+        RegisteredAirMail = 2,
+        ExpressMail = 3
+    }
+
     class EnumsDemo
     {
-        static void Ma
+        static void Main(string[] args)
+        {
+            var method = ShippingMethod.ExpressMail;
+            Console.WriteLine((int)method);
+        }
     }
 }
