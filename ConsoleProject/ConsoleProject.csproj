@@ -8,5 +8,6 @@
   <ItemGroup>
     <Folder Include="NonPrimitiveTypes\" />
     <Folder Include="PrimitiveTypes\" />
+    <Folder Include="ControlFlow\" />
   </ItemGroup>
 </Project>
