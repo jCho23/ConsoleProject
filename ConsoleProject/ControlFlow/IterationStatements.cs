@@ -66,16 +66,23 @@ namespace ConsoleProject.ControlFlow
         {
             //var name = "Michael Jordan";
 
-			//ForLoops
-			//for (var i = 0; i < name.Length; i++)
-			//{
-			//    Console.WriteLine(name[i]);
-			//}
+            //ForLoops
+            //for (var i = 0; i < name.Length; i++)
+            //{
+            //    Console.WriteLine(name[i]);
+            //}
 
             //ForEachLoops are great when we have an Enum Object (string, list, array)
             //Notice that this code is the same as above
-			//foreach (var character in name)
-                //Console.WriteLine(character);
+            //foreach (var character in name)
+            //Console.WriteLine(character);
+
+            //Second Example ForEachLoop
+            //This is iterating an Array
+            var numbers = new int[] { 1, 2, 3, 4 };
+
+            foreach (var number in numbers)
+                Console.WriteLine(number);
         }
 
     }
