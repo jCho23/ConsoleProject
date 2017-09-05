@@ -35,29 +35,48 @@
 namespace ConsoleProject.ControlFlow
 {
     #region ForLoopsDemo
-    class ForLoops
+    //class ForLoops
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        //Increment
+    //        for (var i = 1; i <= 10; i++)
+    //        {
+    //            if (i % 2 == 0)
+    //            {
+    //                Console.WriteLine(i);
+    //            }
+    //        }
+
+    //        //Decrement
+    //        for (var i = 10; i >= 1; i--)
+    //        {
+    //            if (i % 2 == 0)
+    //            {
+    //                Console.WriteLine(i);
+    //            }
+    //        }
+    //    }
+    //}
+    #endregion
+
+    class ForEachLoops
     {
         static void Main(string[] args)
         {
-            //Increment
-            for (var i = 1; i <= 10; i++)
-            {
-                if (i % 2 == 0)
-                {
-                    Console.WriteLine(i);
-                }
-            }
+            //var name = "Michael Jordan";
 
-            //Decrement
-            for (var i = 10; i >= 1; i--)
-            {
-                if (i % 2 == 0)
-                {
-                    Console.WriteLine(i);
-                }
-            }
+			//ForLoops
+			//for (var i = 0; i < name.Length; i++)
+			//{
+			//    Console.WriteLine(name[i]);
+			//}
+
+            //ForEachLoops are great when we have an Enum Object (string, list, array)
+            //Notice that this code is the same as above
+			//foreach (var character in name)
+                //Console.WriteLine(character);
         }
-    }
-    #endregion
 
+    }
 }
