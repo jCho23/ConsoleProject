@@ -60,10 +60,11 @@ namespace ConsoleProject.ControlFlow
     //}
     #endregion
 
-    class ForEachLoops
-    {
-        static void Main(string[] args)
-        {
+    #region ForEachLoopsDemo
+    //class ForEachLoops
+    //{
+        //static void Main(string[] args)
+        //{
             //var name = "Michael Jordan";
 
             //ForLoops
@@ -79,11 +80,12 @@ namespace ConsoleProject.ControlFlow
 
             //Second Example ForEachLoop
             //This is iterating an Array
-            var numbers = new int[] { 1, 2, 3, 4 };
+            //var numbers = new int[] { 1, 2, 3, 4 };
 
-            foreach (var number in numbers)
-                Console.WriteLine(number);
-        }
+            //foreach (var number in numbers)
+            //Console.WriteLine(number);
+    //    }
 
-    }
+    //}
+    #endregion
 }
