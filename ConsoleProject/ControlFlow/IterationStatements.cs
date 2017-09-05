@@ -118,10 +118,15 @@ namespace ConsoleProject.ControlFlow
                 var input = Console.ReadLine();
 
                 //"!" This is the "not" operator
+                //The "continue" keyword makes the loop go back to the start
+                //Meaning, it'll never reach break
                 if (!String.IsNullOrWhiteSpace(input))
+                {
+					Console.WriteLine("@Echo: " + input);
+                    continue;
+                }
                     break;
 
-                Console.WriteLine("@Echo: " + input);
             }
         }
     }
