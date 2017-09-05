@@ -34,6 +34,7 @@
 
 namespace ConsoleProject.ControlFlow
 {
+    #region ForLoopsDemo
     class ForLoops
     {
         static void Main(string[] args)
@@ -52,9 +53,11 @@ namespace ConsoleProject.ControlFlow
             {
                 if (i % 2 == 0)
                 {
-					Console.WriteLine(i);
+                    Console.WriteLine(i);
                 }
             }
         }
     }
+    #endregion
+
 }
