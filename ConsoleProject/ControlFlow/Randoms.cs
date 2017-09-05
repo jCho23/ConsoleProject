@@ -7,8 +7,12 @@ namespace ConsoleProject.ControlFlow
         {
             var random = new Random();
 
+            //Here, "random.Next" has multiple types
             for (var i = 0; i < 10; i++)
-                Console.WriteLine(random.Next());
+                //We are CASTING "char" to get a character from the random number
+                Console.WriteLine((char)random.Next(97, 122));
+
+
         }
     }
 }
