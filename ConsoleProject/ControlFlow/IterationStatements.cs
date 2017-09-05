@@ -101,7 +101,8 @@ namespace ConsoleProject.ControlFlow
             //        Console.WriteLine(i);
             //}
 
-
+            //This is the same code as above but written in WhileLoops
+            //WhileLoops are used when you don't know the amount of times to iterate
             var i = 0;
             while (i <= 10)
             {
