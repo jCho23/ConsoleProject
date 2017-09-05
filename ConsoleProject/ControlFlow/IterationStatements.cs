@@ -33,101 +33,105 @@
 using System.Security.Cryptography;
 #endregion
 
-namespace ConsoleProject.ControlFlow
-{
-    #region ForLoopsDemo
-    //class ForLoops
-    //{
-    //    static void Main(string[] args)
-    //    {
-    //        //Increment
-    //        for (var i = 1; i <= 10; i++)
-    //        {
-    //            if (i % 2 == 0)
-    //            {
-    //                Console.WriteLine(i);
-    //            }
-    //        }
+//namespace ConsoleProject.ControlFlow
+//{
+#region ForLoopsDemo
+//class ForLoops
+//{
+//    static void Main(string[] args)
+//    {
+//        //Increment
+//        for (var i = 1; i <= 10; i++)
+//        {
+//            if (i % 2 == 0)
+//            {
+//                Console.WriteLine(i);
+//            }
+//        }
 
-    //        //Decrement
-    //        for (var i = 10; i >= 1; i--)
-    //        {
-    //            if (i % 2 == 0)
-    //            {
-    //                Console.WriteLine(i);
-    //            }
-    //        }
-    //    }
-    //}
-    #endregion
+//        //Decrement
+//        for (var i = 10; i >= 1; i--)
+//        {
+//            if (i % 2 == 0)
+//            {
+//                Console.WriteLine(i);
+//            }
+//        }
+//    }
+//}
+#endregion
 
-    #region ForEachLoopsDemo
-    //class ForEachLoops
-    //{
-    //static void Main(string[] args)
-    //{
-    //var name = "Michael Jordan";
+#region ForEachLoopsDemo
+//class ForEachLoops
+//{
+//static void Main(string[] args)
+//{
+//var name = "Michael Jordan";
 
-    //ForLoops
-    //for (var i = 0; i < name.Length; i++)
-    //{
-    //    Console.WriteLine(name[i]);
-    //}
+//ForLoops
+//for (var i = 0; i < name.Length; i++)
+//{
+//    Console.WriteLine(name[i]);
+//}
 
-    //ForEachLoops are great when we have an Enum Object (string, list, array)
-    //Notice that this code is the same as above
-    //foreach (var character in name)
-    //Console.WriteLine(character);
+//ForEachLoops are great when we have an Enum Object (string, list, array)
+//Notice that this code is the same as above
+//foreach (var character in name)
+//Console.WriteLine(character);
 
-    //Second Example ForEachLoop
-    //This is iterating an Array
-    //var numbers = new int[] { 1, 2, 3, 4 };
+//Second Example ForEachLoop
+//This is iterating an Array
+//var numbers = new int[] { 1, 2, 3, 4 };
 
-    //foreach (var number in numbers)
-    //Console.WriteLine(number);
-    //    }
+//foreach (var number in numbers)
+//Console.WriteLine(number);
+//    }
 
-    //}
-    #endregion
+//}
+#endregion
 
-    class WhileLoops
-    {
-        static void Main(string[] args)
-        {
-            //ForLoops are used when you know the specific amount of times to iterate
-            //In this case, it's 10
-            //for (var i = 1; i <= 10; i++)
-            //{
-            //    if (i % 2 == 0)
-            //        Console.WriteLine(i);
-            //}
+#region WhileLoops
+//    class WhileLoops
+//    {
+//        static void Main(string[] args)
+//        {
+//            //ForLoops are used when you know the specific amount of times to iterate
+//            //In this case, it's 10
+//            //for (var i = 1; i <= 10; i++)
+//            //{
+//            //    if (i % 2 == 0)
+//            //        Console.WriteLine(i);
+//            //}
 
-            //This is the same code as above but written in WhileLoops
-            //WhileLoops are used when you don't know the amount of times to iterate
-            //var i = 0;
-            //while (i <= 10)
-            //{
-            //    if (i % 2 == 0)
-            //        Console.WriteLine(i);
-            //    i++;
-            //}
+//            //This is the same code as above but written in WhileLoops
+//            //WhileLoops are used when you don't know the amount of times to iterate
+//            //var i = 0;
+//            //while (i <= 10)
+//            //{
+//            //    if (i % 2 == 0)
+//            //        Console.WriteLine(i);
+//            //    i++;
+//            //}
+#endregion
 
-            while (true)
-            {
-                Console.Write("Type your name: ");
-                var input = Console.ReadLine();
+#region WhileLoops Demo2
+//            while (true)
+//            {
+//                Console.Write("Type your name: ");
+//                var input = Console.ReadLine();
 
-                //"!" This is the "not" operator
-                //The "continue" keyword makes the loop go back to the start
-                //Meaning, it'll never reach break
-                if (!String.IsNullOrWhiteSpace(input))
-                {
-					Console.WriteLine("@Echo: " + input);
-                    continue;
-                }
-                    break;
+//                //"!" This is the "not" operator
+//                //The "continue" keyword makes the loop go back to the start
+//                //Meaning, it'll never reach break
+//                if (!String.IsNullOrWhiteSpace(input))
+//                {
+//                    Console.WriteLine("@Echo: " + input);
+//                    continue;
+//                }
+//                break;
 
-            }
-        }
-    }
-}
+//            }
+#endregion
+//        }
+//    }
+//}
