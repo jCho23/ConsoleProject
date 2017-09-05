@@ -30,6 +30,7 @@
 //Break and Continue
 //Break: jumps out of the loop
 //Continue: jumps into the next iteration
+using System.Security.Cryptography;
 #endregion
 
 namespace ConsoleProject.ControlFlow
@@ -103,12 +104,24 @@ namespace ConsoleProject.ControlFlow
 
             //This is the same code as above but written in WhileLoops
             //WhileLoops are used when you don't know the amount of times to iterate
-            var i = 0;
-            while (i <= 10)
+            //var i = 0;
+            //while (i <= 10)
+            //{
+            //    if (i % 2 == 0)
+            //        Console.WriteLine(i);
+            //    i++;
+            //}
+
+            while (true)
             {
-                if (i % 2 == 0)
-                    Console.WriteLine(i);
-                i++;
+                Console.Write("Type your name: ");
+                var input = Console.ReadLine();
+
+                //"!" This is the "not" operator
+                if (!String.IsNullOrWhiteSpace(input))
+                    break;
+
+                Console.WriteLine("@Echo: " + input);
             }
         }
     }
