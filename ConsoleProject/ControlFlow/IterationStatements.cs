@@ -88,4 +88,12 @@ namespace ConsoleProject.ControlFlow
 
     //}
     #endregion
+
+    class WhileLoops
+    {
+        static void Main (string[] args)
+        {
+            
+        }
+    }
 }
