@@ -63,27 +63,27 @@ namespace ConsoleProject.ControlFlow
     #region ForEachLoopsDemo
     //class ForEachLoops
     //{
-        //static void Main(string[] args)
-        //{
-            //var name = "Michael Jordan";
+    //static void Main(string[] args)
+    //{
+    //var name = "Michael Jordan";
 
-            //ForLoops
-            //for (var i = 0; i < name.Length; i++)
-            //{
-            //    Console.WriteLine(name[i]);
-            //}
+    //ForLoops
+    //for (var i = 0; i < name.Length; i++)
+    //{
+    //    Console.WriteLine(name[i]);
+    //}
 
-            //ForEachLoops are great when we have an Enum Object (string, list, array)
-            //Notice that this code is the same as above
-            //foreach (var character in name)
-            //Console.WriteLine(character);
+    //ForEachLoops are great when we have an Enum Object (string, list, array)
+    //Notice that this code is the same as above
+    //foreach (var character in name)
+    //Console.WriteLine(character);
 
-            //Second Example ForEachLoop
-            //This is iterating an Array
-            //var numbers = new int[] { 1, 2, 3, 4 };
+    //Second Example ForEachLoop
+    //This is iterating an Array
+    //var numbers = new int[] { 1, 2, 3, 4 };
 
-            //foreach (var number in numbers)
-            //Console.WriteLine(number);
+    //foreach (var number in numbers)
+    //Console.WriteLine(number);
     //    }
 
     //}
@@ -91,9 +91,24 @@ namespace ConsoleProject.ControlFlow
 
     class WhileLoops
     {
-        static void Main (string[] args)
+        static void Main(string[] args)
         {
-            
+            //ForLoops are used when you know the specific amount of times to iterate
+            //In this case, it's 10
+            //for (var i = 1; i <= 10; i++)
+            //{
+            //    if (i % 2 == 0)
+            //        Console.WriteLine(i);
+            //}
+
+
+            var i = 0;
+            while (i <= 10)
+            {
+                if (i % 2 == 0)
+                    Console.WriteLine(i);
+                i++;
+            }
         }
     }
 }
