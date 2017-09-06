@@ -16,6 +16,13 @@ namespace ConsoleProject.ArraysAndLists
             //Length: Returns the size of the Array
             Console.WriteLine("Length: " + numbers.Length);
 
+
+            //**Notice that .Length object is called in the method and ONLY accessible by this Object
+            //ALL the other Methods are getting on the Array class itself because it's Static
+            //THUS, if a Method / Property/ Fill gets called on the class itself then its Static
+            //i.e Static classes are accessible throughout the whole class 
+
+
             //Index Method: IndexOf()
             //This method finds the positions of an element in the Array
             var index= Array.IndexOf(numbers, 9);
