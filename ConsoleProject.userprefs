@@ -1,9 +1,5 @@
 ﻿<Properties StartupConfiguration="{3C71F35F-8023-4C10-BB48-05F0080F6757}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleProject/ArraysAndLists/Arrays.cs">
-    <Files>
-      <File FileName="ConsoleProject/ArraysAndLists/Arrays.cs" Line="3" Column="7" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
