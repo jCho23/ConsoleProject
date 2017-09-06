@@ -37,6 +37,13 @@ namespace ConsoleProject.ArraysAndLists
             Console.WriteLine("Effect of Copy()");
             foreach (var n in another)
                 Console.WriteLine(n);
+
+            //Sort Method: Sort()
+            Array.Sort(numbers);
+
+            Console.WriteLine("Effect of Sort()");
+            foreach (var n in numbers)
+                Console.WriteLine(n);
         }
     }
 }
