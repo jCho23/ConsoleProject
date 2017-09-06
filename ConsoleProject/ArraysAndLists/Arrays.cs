@@ -16,7 +16,7 @@ namespace ConsoleProject.ArraysAndLists
             //Length: Returns the size of the Array
             Console.WriteLine("Length: " + numbers.Length);
 
-            //IndexOf(): This is the IndexOf Method 
+            //Index Method: IndexOf()
             //This method finds the positions of an element in the Array
             var index= Array.IndexOf(numbers, 9);
             //Index of 9 is 2, since it's the third nubmer
@@ -26,6 +26,16 @@ namespace ConsoleProject.ArraysAndLists
             Array.Clear(numbers, 0, 2);
 
             foreach (var n in numbers)
+                Console.WriteLine(n);
+
+            //Copy Method: Copy()
+            //We had to make this new Array as Destination
+            //(See Copy parameter)
+            int[] another = new int[3];
+            Array.Copy(numbers, another, 3);
+
+            Console.WriteLine("Effect of Copy()");
+            foreach (var n in another)
                 Console.WriteLine(n);
         }
     }
