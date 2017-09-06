@@ -18,10 +18,13 @@ namespace ConsoleProject.ArraysAndLists
 
 
             //**Notice that .Length object is called in the method and ONLY accessible by this Object
+            //THUS, .Length is an INSTANCE property
+
             //ALL the other Methods are getting on the Array class itself because it's Static
             //THUS, if a Method / Property/ Fill gets called on the class itself then its Static
             //i.e Static classes are accessible throughout the whole class 
 
+            //Overloads: VERSIONS
 
             //Index Method: IndexOf()
             //This method finds the positions of an element in the Array
