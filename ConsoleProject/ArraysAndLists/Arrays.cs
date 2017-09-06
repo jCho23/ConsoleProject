@@ -21,6 +21,12 @@ namespace ConsoleProject.ArraysAndLists
             var index= Array.IndexOf(numbers, 9);
             //Index of 9 is 2, since it's the third nubmer
             Console.WriteLine("Index of 9: " + index);
+
+            //Clear Method: Clear()
+            Array.Clear(numbers, 0, 2);
+
+            foreach (var n in numbers)
+                Console.WriteLine(n);
         }
     }
 }
