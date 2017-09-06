@@ -47,17 +47,17 @@ namespace ConsoleProject.ControlFlow
         //Create a program that takes a single argument from the console
         //Computes the factorial and prints the value on the console
 
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Enter a number: ");
-            var number = Convert.ToInt32(Console.ReadLine());
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("Enter a number: ");
+        //    var number = Convert.ToInt32(Console.ReadLine());
 
-            var factorial = 1;
-            for (var i = 1; i <= number; i++)
-                factorial *= i;
+        //    var factorial = 1;
+        //    for (var i = 1; i <= number; i++)
+        //        factorial *= i;
 
-            Console.WriteLine("{0}!={1}", number, factorial);
-        }
+        //    Console.WriteLine("{0}!={1}", number, factorial);
+        //}
         #endregion
     }
 }
