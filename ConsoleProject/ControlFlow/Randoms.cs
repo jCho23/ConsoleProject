@@ -17,16 +17,18 @@ namespace ConsoleProject.ControlFlow
 
             //Storing results in Array and Creating a String from that Array
             var random = new Random();
+
+            //We created this constant so that we can change the value in ONE place
+            const int passwordLength = 10;
+
             //This is a char Array called buffer (highlight var)
-			var buffer = new char[10];
+            var buffer = new char[passwordLength];
 
-            for (var i = 0; i < 10; i++) 
-			Console.Write((char)('a'+random.Next(0, 26)));
+            for (var i = 0; i < passwordLength; i++)
+                buffer[i] = (char)('a' + random.Next(0, 26));
 
-
-
-
-
-		}
+            var password = new string(buffer);
+            Console.WriteLine(password);
+        }
     }
 }
