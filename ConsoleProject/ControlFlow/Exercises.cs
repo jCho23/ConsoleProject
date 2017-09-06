@@ -21,6 +21,13 @@ namespace ConsoleProject.ControlFlow
         //}
         #endregion
 
+        //Create a program that continuosly asks the user to enter a number
+        //The loop terminates when the user enter "OK"
+        //Calculate the sum of all the previouslt entered numbers and display it 
 
+        static void Main(string[] args)
+        {
+            
+        }
     }
 }
