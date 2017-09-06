@@ -3,7 +3,7 @@ namespace ConsoleProject.ControlFlow
 {
     class Exercises
     {
-        #region ExerciseOne
+        #region Exercise1
         //Create a program that counts how many numbers between 1 and 100
         //Divisible by 3 with no remainder
         //Display results on Console
@@ -59,5 +59,10 @@ namespace ConsoleProject.ControlFlow
         //    Console.WriteLine("{0}!={1}", number, factorial);
         //}
         #endregion
+
+        //Create a program that picks a random number between 1 and 10
+        //Give the user 4 chances to guess
+        //If the user guesses the number, "You WON!!!"
+        //If not, "You LOST"
     }
 }
