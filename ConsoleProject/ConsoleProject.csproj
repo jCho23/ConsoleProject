@@ -9,5 +9,6 @@
     <Folder Include="NonPrimitiveTypes\" />
     <Folder Include="PrimitiveTypes\" />
     <Folder Include="ControlFlow\" />
+    <Folder Include="ArraysAndLists\" />
   </ItemGroup>
 </Project>
