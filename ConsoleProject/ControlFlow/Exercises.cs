@@ -21,25 +21,26 @@ namespace ConsoleProject.ControlFlow
         //}
         #endregion
 
-         
+        #region Exercise2
         //Create a program that continuosly asks the user to enter a number
         //The loop terminates when the user enter "OK"
         //Calculate the sum of all the previouslt entered numbers and display it 
 
-        static void Main(string[] args)
-        {
-            var sum = 0;
-            while (true)
-            {
-                Console.WriteLine("Enter a number(or 'OK' to exit): ");
-                var input = Console.ReadLine();
+        //static void Main(string[] args)
+        //{
+        //    var sum = 0;
+        //    while (true)
+        //    {
+        //        Console.WriteLine("Enter a number(or 'OK' to exit): ");
+        //        var input = Console.ReadLine();
 
-                if (input.ToLower() == "OK")
-                    break;
+        //        if (input.ToLower() == "OK")
+        //            break;
 
-                sum += Convert.ToInt32(input);
-            }
-            Console.WriteLine("Sum of all numbers is: " + sum);
-        }
+        //        sum += Convert.ToInt32(input);
+        //    }
+        //    Console.WriteLine("Sum of all numbers is: " + sum);
+        //}
+        #endregion
     }
 }
