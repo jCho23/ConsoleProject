@@ -44,6 +44,13 @@ namespace ConsoleProject.ArraysAndLists
             Console.WriteLine("Effect of Sort()");
             foreach (var n in numbers)
                 Console.WriteLine(n);
+
+            //Reverse Method: Reverse()
+            Array.Reverse(numbers);
+
+            Console.WriteLine("Effect of Reverse()");
+            foreach(var n in numbers)
+                Console.WriteLine(n);
         }
     }
 }
