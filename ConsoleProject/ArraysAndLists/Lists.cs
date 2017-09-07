@@ -38,6 +38,22 @@ namespace ConsoleProject.ArraysAndLists
 
             //Here COUNT is a PROPERTY and Returns the number of objects in the list
             Console.WriteLine("Count: "+ numbers.Count);
+
+   //         numbers.Remove(1);
+			//foreach (var number in numbers)
+                //Notice that it onle removed the 1st "1"
+				//Console.WriteLine(number);
+
+
+            //This is how you Remove All the "1's" in the list
+            foreach (var number in numbers)
+            {
+                if (number == 1)
+                    numbers.Remove(number);
+            }
+
+			foreach (var number in numbers)
+				Console.WriteLine(number);
         }
     }
 }
