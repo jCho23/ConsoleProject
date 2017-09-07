@@ -29,6 +29,9 @@ namespace ConsoleProject.ArraysAndLists
 
             foreach (var number in numbers)
                 Console.WriteLine(number);
+
+            Console.WriteLine();
+            Console.WriteLine("Index of 1: " + numbers.IndexOf(1));
         }
     }
 }
