@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{3C71F35F-8023-4C10-BB48-05F0080F6757}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleProject/ArraysAndLists/Exercises.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleProject/ArraysAndLists/DemoArrayAndLists.cs">
     <Files>
       <File FileName="ConsoleProject/ArraysAndLists/Lists.cs" Line="57" Column="33" />
-      <File FileName="ConsoleProject/ArraysAndLists/Exercises.cs" Line="6" Column="6" />
+      <File FileName="ConsoleProject/ArraysAndLists/DemoArrayAndLists.cs" Line="64" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
