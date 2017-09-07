@@ -4,9 +4,9 @@ using System.Security.Cryptography;
 
 namespace ConsoleProject.ArraysAndLists
 {
-    public class Exercises
+    public class DemoArrayAndLists
     {
-        //Exeercise 1
+        //Demo 1
         //Ask the user to enter different names, until the user presses Enter (w/o name)
         //Depending on the names provides, display a message
         //static void Main(string[] args)
@@ -34,14 +34,21 @@ namespace ConsoleProject.ArraysAndLists
         //        Console.WriteLine();
         //}
 
-        //Exercise2
+        //Demo2
         //Ask the user to enter their name
         //Use an Array to reverse the name and then store the result in a new string
         //Display the reversed name
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("What is your name? ");
+        //    var name = Console.ReadLine();
 
-        static void Main(string[] args)
-        {
-            
-        }
+        //    var array = new char[name.Length];
+        //    for (var i = name.Length; i > 0; i--)
+        //        array[name.Length - i] = name[i - 1];
+
+        //    var reversed = new string(array);
+        //    Console.WriteLine("Reversed name: " + reversed);
+        //}
     }
 }
