@@ -35,6 +35,9 @@ namespace ConsoleProject.ArraysAndLists
             Console.WriteLine("Index of 1: " + numbers.IndexOf(1));
             //This starts the search from the end of the list
             Console.WriteLine("Last Index of 1: " + numbers.LastIndexOf(1));
+
+            //Here COUNT is a PROPERTY and Returns the number of objects in the list
+            Console.WriteLine("Count: "+ numbers.Count);
         }
     }
 }
