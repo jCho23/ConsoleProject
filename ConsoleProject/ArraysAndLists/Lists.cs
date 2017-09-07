@@ -11,6 +11,7 @@
 //IndexOf()
 //Contains()
 //Count()
+using System.Collections.Generic;
 
 namespace ConsoleProject.ArraysAndLists
 {
@@ -18,7 +19,13 @@ namespace ConsoleProject.ArraysAndLists
     {
         static void Main(string[] args)
         {
-            
+            var numbers = new List<int>(){1,2,3,4};
+            //Notice that in Lists you can ADD objects
+            //In Arrays, you can't add object since it is fixed
+            numbers.Add(1);
+            //When you see IEnumerable (hover AddRange), add an Array or List
+            //Capital I = interface
+            numbers.AddRange();
         }
     }
 }
