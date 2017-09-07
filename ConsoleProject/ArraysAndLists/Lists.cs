@@ -55,6 +55,11 @@ namespace ConsoleProject.ArraysAndLists
 
 			foreach (var number in numbers)
 				Console.WriteLine(number);
+
+            //This Clear Method removes ALL objects from the list
+            numbers.Clear();
+            Console.WriteLine("Count: " + numbers.Count);
+
         }
     }
 }
