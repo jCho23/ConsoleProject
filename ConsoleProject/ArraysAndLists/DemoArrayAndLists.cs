@@ -56,6 +56,7 @@ namespace ConsoleProject.ArraysAndLists
         //If a number has been previously entered, display an Error message and ask the user to re-try
         //Once the user enters 5 unique numbers, 
         //Sort and Display them on the console
+
         //static void Main(string[] args)
         //{
         //    var numbers = new List<int>();
