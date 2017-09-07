@@ -31,7 +31,10 @@ namespace ConsoleProject.ArraysAndLists
                 Console.WriteLine(number);
 
             Console.WriteLine();
+            //This starts the search from the beginning of the list
             Console.WriteLine("Index of 1: " + numbers.IndexOf(1));
+            //This starts the search from the end of the list
+            Console.WriteLine("Last Index of 1: " + numbers.LastIndexOf(1));
         }
     }
 }
