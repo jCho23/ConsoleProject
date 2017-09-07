@@ -56,27 +56,27 @@ namespace ConsoleProject.ArraysAndLists
         //If a number has been previously entered, display an Error message and ask the user to re-try
         //Once the user enters 5 unique numbers, 
         //Sort and Display them on the console
-        static void Main(string[] args)
-        {
-            var numbers = new List<int>();
-            while(numbers.Count<5)
-            {
-                Console.WriteLine("Enter a number: ");
-                var number= Convert.ToInt32(Console.ReadLine());
-                if (numbers.Contains(number))
-                {
-                    Console.WriteLine("You've previously entered " + number);
-                    continue;
-                }
+        //static void Main(string[] args)
+        //{
+        //    var numbers = new List<int>();
+        //    while(numbers.Count<5)
+        //    {
+        //        Console.WriteLine("Enter a number: ");
+        //        var number= Convert.ToInt32(Console.ReadLine());
+        //        if (numbers.Contains(number))
+        //        {
+        //            Console.WriteLine("You've previously entered " + number);
+        //            continue;
+        //        }
 
-                numbers.Add(number);
-            }
+        //        numbers.Add(number);
+        //    }
 
-            numbers.Sort();
+        //    numbers.Sort();
 
-            foreach(var number in numbers)
-                Console.WriteLine(number);
-        }
+        //    foreach(var number in numbers)
+        //        Console.WriteLine(number);
+        //}
 
 
 
