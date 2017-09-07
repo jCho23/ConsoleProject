@@ -14,10 +14,11 @@
 
 namespace ConsoleProject.ArraysAndLists
 {
-    public class Lists
+    class Lists
     {
-        public Lists()
+        static void Main(string[] args)
         {
+            
         }
     }
 }
