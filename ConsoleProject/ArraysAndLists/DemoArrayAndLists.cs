@@ -50,5 +50,11 @@ namespace ConsoleProject.ArraysAndLists
         //    var reversed = new string(array);
         //    Console.WriteLine("Reversed name: " + reversed);
         //}
+
+        //Demo3
+        //Ask the user to enter 5 numbers
+        //If a number has been previously entered, display an Error message and ask the user to re-try
+        //Once the user enters 5 unique numbers, 
+        //Sort and Display them on the console
     }
 }
