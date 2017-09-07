@@ -34,6 +34,14 @@ namespace ConsoleProject.ArraysAndLists
         //        Console.WriteLine();
         //}
 
+        //Exercise2
+        //Ask the user to enter their name
+        //Use an Array to reverse the name and then store the result in a new string
+        //Display the reversed name
 
+        static void Main(string[] args)
+        {
+            
+        }
     }
 }
