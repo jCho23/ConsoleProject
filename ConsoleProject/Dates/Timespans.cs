@@ -35,9 +35,14 @@ namespace ConsoleProject.Dates
             //TotalMinutes converts the same TimeSpan Object to TOTAL MINUTES of that Object
             //Thus 1= 60min
             //2= 2min
-            //3 quarter of a min
+            //3=  3sec
             //==62.05
             Console.WriteLine("Total Minutes: " + timeSpan.TotalMinutes);
+
+            //ADD
+            //Modify TimeSpan Methods
+            //Here == 1 hour, 10 min, and 3 sec
+            Console.WriteLine("Add Example: "+ timeSpan.Add(TimeSpan.FromMinutes(8)));
         }
 
 
