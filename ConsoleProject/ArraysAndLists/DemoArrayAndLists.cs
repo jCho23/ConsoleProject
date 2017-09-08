@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Net.Http.Headers;
+using System.Globalization;
 
 namespace ConsoleProject.ArraysAndLists
 {
@@ -134,10 +135,24 @@ namespace ConsoleProject.ArraysAndLists
                 Console.WriteLine("InvalidList");
             }
 
+            var numbers = new List<int>();
+            foreach (var number in elements)
+                numbers.Add(Convert.ToInt32(number));
+
+
             var smallests = new List<int>();
             while (smallests.Count <3)
             {
-                
+                //Assume the first number is the smallest
+                var min = numbers[0];
+                foreach (var number in numbers)
+                {
+                    if (number < min)
+                        min = number;
+                }
+
+                smallests.Add(min);
+                numbers.Remove(min);
             }
                 
         }
