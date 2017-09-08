@@ -50,7 +50,13 @@ namespace ConsoleProject.Dates
 
             //Convert TimeSpan to String
             //Use ToString Method
-            Console.WriteLine("ToString" + timeSpan.ToString());
+            //Here== 1 hour, 2 min, 3 sec
+            Console.WriteLine("ToString: " + timeSpan.ToString());
+
+            //Conversion from a String
+            //Use Parse Method
+            //Here== 1 hour, 2min, 3sec
+            Console.WriteLine("Parse: " +TimeSpan.Parse("01:02:03"));
         }
 
 
