@@ -49,6 +49,8 @@ namespace ConsoleProject.Dates
             Console.WriteLine("Subtract Example: " + timeSpan.Subtract(TimeSpan.FromMinutes(2)));
 
             //Convert TimeSpan to String
+            //Use ToString Method
+            Console.WriteLine("ToString" + timeSpan.ToString());
         }
 
 
