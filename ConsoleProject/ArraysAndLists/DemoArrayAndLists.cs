@@ -117,47 +117,47 @@ namespace ConsoleProject.ArraysAndLists
         //If the list is empty or includes less than 5 numbers, display "Invalid List" and ask user to retry
         //Display the 3 smallest numbers in the list
 
-        static void Main(string[] args)
-        {
-            string[] elements;
-            while (true)
-            {
-                Console.WriteLine("Enter a list of comma-seperated numbers: ");
-                var input = Console.ReadLine();
+        //static void Main(string[] args)
+        //{
+        //    string[] elements;
+        //    while (true)
+        //    {
+        //        Console.WriteLine("Enter a list of comma-seperated numbers: ");
+        //        var input = Console.ReadLine();
 
-                if (!String.IsNullOrWhiteSpace(input))
-                {
-                    elements = input.Split(',');
-                    if (elements.Length >= 5)
-                        break;
-                }
+        //        if (!String.IsNullOrWhiteSpace(input))
+        //        {
+        //            elements = input.Split(',');
+        //            if (elements.Length >= 5)
+        //                break;
+        //        }
 
-                Console.WriteLine("InvalidList");
-            }
+        //        Console.WriteLine("InvalidList");
+        //    }
 
-            var numbers = new List<int>();
-            foreach (var number in elements)
-                numbers.Add(Convert.ToInt32(number));
+        //    var numbers = new List<int>();
+        //    foreach (var number in elements)
+        //        numbers.Add(Convert.ToInt32(number));
 
 
-            var smallests = new List<int>();
-            while (smallests.Count <3)
-            {
-                //Assume the first number is the smallest
-                var min = numbers[0];
-                foreach (var number in numbers)
-                {
-                    if (number < min)
-                        min = number;
-                }
+        //    var smallests = new List<int>();
+        //    while (smallests.Count <3)
+        //    {
+        //        //Assume the first number is the smallest
+        //        var min = numbers[0];
+        //        foreach (var number in numbers)
+        //        {
+        //            if (number < min)
+        //                min = number;
+        //        }
 
-                smallests.Add(min);
-                numbers.Remove(min);
-            }
+        //        smallests.Add(min);
+        //        numbers.Remove(min);
+        //    }
 
-            Console.WriteLine("The 3 smallest numbers are: ");
-            foreach (var number in smallests)
-                Console.WriteLine(number);
-        }
+        //    Console.WriteLine("The 3 smallest numbers are: ");
+        //    foreach (var number in smallests)
+        //        Console.WriteLine(number);
+        //}
     }
 }
