@@ -122,9 +122,16 @@ namespace ConsoleProject.ArraysAndLists
             while (true)
             {
                 Console.WriteLine("Enter a list of comma-seperated numbers: ");
-                var input= Console.ReadLine();
+                var input = Console.ReadLine();
 
+                if (!String.IsNullOrWhiteSpace(input))
+                {
+                    elements = input.Split(',');
+                    if (elements.Length >= 5)
+                        break;
+                }
 
+                Console.WriteLine("InvalidList");
             }
         }
     }
