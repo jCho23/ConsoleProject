@@ -12,6 +12,11 @@ namespace ConsoleProject.Dates
             //To make the code above more clear,
             //Use the static methods on the TimeSpan Structure
             var timeSpanNoValue2= TimeSpan.FromHours(1);
+
+            //IF you have 2 DateTime objects,
+            //And you subtract them...
+            //The Result is a TimeSpan
+
         }
     }
 }
