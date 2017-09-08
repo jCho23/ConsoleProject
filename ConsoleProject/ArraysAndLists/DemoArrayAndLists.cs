@@ -133,6 +133,13 @@ namespace ConsoleProject.ArraysAndLists
 
                 Console.WriteLine("InvalidList");
             }
+
+            var smallests = new List<int>();
+            while (smallests.Count <3)
+            {
+                
+            }
+                
         }
     }
 }
