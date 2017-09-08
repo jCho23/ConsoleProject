@@ -79,9 +79,18 @@ namespace ConsoleProject.ArraysAndLists
         //        Console.WriteLine(number);
         //}
 
+        //Demo4
+        //Ask the user to continuously enter a number or type "Quit" to exit
+        //The list of numbers may include duplicates
+        //Display the unique numbers that the user has entered 
+        static void Main(string[] args)
+        {
+            var numbers
 
 
 
+
+        }
 
     }
 }
