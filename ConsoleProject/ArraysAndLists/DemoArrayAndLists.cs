@@ -115,5 +115,17 @@ namespace ConsoleProject.ArraysAndLists
         //Ask the user to supply a list of comma seperated numbers (i.e. 5, 6, 2, 0,)
         //If the list is empty or includes less than 5 numbers, display "Invalid List" and ask user to retry
         //Display the 3 smallest numbers in the list
+
+        static void Main(string[] args)
+        {
+            string[] elements;
+            while (true)
+            {
+                Console.WriteLine("Enter a list of comma-seperated numbers: ");
+                var input= Console.ReadLine();
+
+
+            }
+        }
     }
 }
