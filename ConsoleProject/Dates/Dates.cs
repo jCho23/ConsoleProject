@@ -19,8 +19,8 @@ namespace ConsoleProject.Dates
             var yesterday = now.AddDays(-1);
 
             //Formatting DateTime Objects to a String
-
-
+            //Google "C# DateTime Format Specifier" for more Method options
+            Console.WriteLine(now.ToString());
         }
     }
 }
