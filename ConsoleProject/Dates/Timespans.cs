@@ -43,6 +43,10 @@ namespace ConsoleProject.Dates
             //Modify TimeSpan Methods
             //Here == 1 hour, 10 min, and 3 sec
             Console.WriteLine("Add Example: "+ timeSpan.Add(TimeSpan.FromMinutes(8)));
+
+            //Subtract
+            //Here == 1 hour, 3sec
+            Console.WriteLine("Subtract Example: " + timeSpan.Subtract(TimeSpan.FromMinutes(2)));
         }
 
 
