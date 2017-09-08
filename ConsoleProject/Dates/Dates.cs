@@ -12,6 +12,15 @@ namespace ConsoleProject.Dates
             Console.WriteLine("Hour: " + now.Hour);
             Console.WriteLine("Minute: " + now.Minute);
 
+            //DateTime is Immutable
+            //So how do you modify DateTime?
+            //With Add Methods
+            var tomorrow = now.AddDays(1);
+            var yesterday = now.AddDays(-1);
+
+            //Formatting DateTime Objects to a String
+
+
         }
     }
 }
