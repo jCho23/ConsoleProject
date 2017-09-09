@@ -11,6 +11,13 @@
 //IndexOf('a')
 //LastIndexOf("Hello")
 
+//SubStrings
+//These methods have a couple of overloads
+//Substring(startIndex) <Retrives all the characters in the string>
+//Substring(startIndex, length) <the length arguement here limits the amount of characters to retrive>
+
+
+
 namespace ConsoleProject.Dates
 {
     public class Strings
