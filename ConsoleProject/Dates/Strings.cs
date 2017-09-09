@@ -85,6 +85,11 @@ namespace ConsoleProject.Dates
             Console.WriteLine("First Name: " + firstName);
             Console.WriteLine("Last Name: " + lastName);
 
+            //This code is the same as above BUT
+            //We are using the Split String
+            var names= fullName.Split(' ');
+            Console.WriteLine("First Name: " + names[0]);
+            Console.WriteLine("Last Name: " + names[1]);
 
 
 
