@@ -16,6 +16,10 @@
 //Substring(startIndex) <Retrives all the characters in the string>
 //Substring(startIndex, length) <the length arguement here limits the amount of characters to retrive>
 
+//Replacing
+//Replace ('a', '!')
+//i.e Replace ('june', 'june23')
+
 
 
 namespace ConsoleProject.Dates
