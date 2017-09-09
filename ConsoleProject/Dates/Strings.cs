@@ -100,6 +100,13 @@ namespace ConsoleProject.Dates
             if (String.IsNullOrWhiteSpace(" "));
                 Console.WriteLine("Invalid");
 
+            //Convert String to Number
+            var str = "25";
+            var age= Convert.ToByte(str);
+            Console.WriteLine(age);
+
+            //Convert Number to String
+
         }
     }
 }
