@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{3C71F35F-8023-4C10-BB48-05F0080F6757}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleProject/Texts/SummarisingTexts.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleProject/Texts/StringBuilders.cs">
     <Files>
-      <File FileName="ConsoleProject/Texts/Strings.cs" Line="1" Column="1" />
-      <File FileName="ConsoleProject/Texts/SummarisingTexts.cs" Line="6" Column="9" />
+      <File FileName="ConsoleProject/Texts/StringBuilders.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
