@@ -62,51 +62,55 @@
 //string t = i.ToString("C0"); == "$1,234"
 #endregion
 
-namespace ConsoleProject.Dates
-{
-    class StringsDemo
-    {
-        static void Main(string[] args)
-        {
-            //Note that there is a White-Space character at the end of this string
-            var fullName = "June Cho ";
+//namespace ConsoleProject.Dates
+//{
+//    class StringsDemo
+//    {
+//        static void Main(string[] args)
+//        {
+//            //Note that there is a White-Space character at the end of this string
+//            var fullName = "June Cho ";
 
-            //This Trims the White-Space Before or After the String
-            Console.WriteLine("Trim: '{0}'", fullName.Trim());
+//            //This Trims the White-Space Before or After the String
+//            Console.WriteLine("Trim: '{0}'", fullName.Trim());
 
-            //Changes String to ALL-CAPS
-            Console.WriteLine("ToUpper: '{0}'", fullName.ToUpper());
+//            //Changes String to ALL-CAPS
+//            Console.WriteLine("ToUpper: '{0}'", fullName.ToUpper());
 
-            //This is how you split Strings, in this case fullName
-            //Notice that we are using SubString here
-            var index = fullName.IndexOf(' ');
-            var firstName = fullName.Substring(0, index);
-            var lastName = fullName.Substring(index + 1);
-            Console.WriteLine("First Name: " + firstName);
-            Console.WriteLine("Last Name: " + lastName);
+//            //This is how you split Strings, in this case fullName
+//            //Notice that we are using SubString here
+//            var index = fullName.IndexOf(' ');
+//            var firstName = fullName.Substring(0, index);
+//            var lastName = fullName.Substring(index + 1);
+//            Console.WriteLine("First Name: " + firstName);
+//            Console.WriteLine("Last Name: " + lastName);
 
-            //This code is the same as above BUT
-            //We are using the Split String
-            var names= fullName.Split(' ');
-            Console.WriteLine("First Name: " + names[0]);
-            Console.WriteLine("Last Name: " + names[1]);
+//            //This code is the same as above BUT
+//            //We are using the Split String
+//            var names= fullName.Split(' ');
+//            Console.WriteLine("First Name: " + names[0]);
+//            Console.WriteLine("Last Name: " + names[1]);
 
-            //Replace
-            //All these Method calls returns NEW strings
-            Console.WriteLine(fullName.Replace("June", "MJ"));
+//            //Replace
+//            //All these Method calls returns NEW strings
+//            Console.WriteLine(fullName.Replace("June", "MJ"));
 
-            //Validating
-            //NullOrWhiteSpace takes care of the space for entry fields
-            if (String.IsNullOrWhiteSpace(" "));
-                Console.WriteLine("Invalid");
+//            //Validating
+//            //NullOrWhiteSpace takes care of the space for entry fields
+//            if (String.IsNullOrWhiteSpace(" "));
+//                Console.WriteLine("Invalid");
 
-            //Convert String to Number
-            var str = "25";
-            var age= Convert.ToByte(str);
-            Console.WriteLine(age);
+//            //Convert String to Number
+//            var str = "25";
+//            var age= Convert.ToByte(str);
+//            Console.WriteLine(age);
 
-            //Convert Number to String
+//            //Convert Number to String
+//            float price = 29.95f;
+//            //Every object in .Net has a ToString Method
+//            //Here we are converting the number to a Currency
+//            Console.WriteLine(price.ToString("C"));
 
-        }
-    }
-}
+//        }
+//    }
+//}
