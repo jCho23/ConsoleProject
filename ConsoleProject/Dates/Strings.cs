@@ -24,6 +24,12 @@
 //String.IsNullOrEmpty(str)
 //String.ISNullOrWhiteSpace(str)
 
+//Splitting
+//Summarize longer String into a shorter one
+//str.Split(' ')
+
+//Converting Strings to numbers
+
 namespace ConsoleProject.Dates
 {
     public class Strings
