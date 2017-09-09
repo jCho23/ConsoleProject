@@ -95,7 +95,10 @@ namespace ConsoleProject.Dates
             //All these Method calls returns NEW strings
             Console.WriteLine(fullName.Replace("June", "MJ"));
 
-            //Validating 
+            //Validating
+            //NullOrWhiteSpace takes care of the space for entry fields
+            if (String.IsNullOrWhiteSpace(" "));
+                Console.WriteLine("Invalid");
 
         }
     }
