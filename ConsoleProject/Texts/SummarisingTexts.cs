@@ -8,39 +8,41 @@ namespace ConsoleProject.Texts
         static void Main(string[] args)
         {
             var sentence = "This is an example of a super long sentence that is best exemplified in a blog post of some kind, if you know what I mean!";
-           
-            }
+            var summary = SummarizeText(sentence, 30);
+            Console.WriteLine(summary);
         }
 
-        static string SummarizeText(string text)
+        static string SummarizeText(string text, int maxLength = 20)
         {
-		const int maxlength = 20;
+            //Instead of hardcoding the max length here, we are passing it through the Method
+            const int maxlength = 20;
 
-        if (text.Length < maxlength)
-            return text;
-        
-		else
-		{
-			//Breaking sentences into words
-			var words = text.Split(' ');
-			var totalCharacters = 0;
-			var summaryWords = new List<string>();
+            if (text.Length < maxlength)
+                return text;
 
-			foreach (var word in words)
-			{
-				summaryWords.Add(word);
+            else
+            {
+                //Breaking sentences into words
+                var words = text.Split(' ');
+                var totalCharacters = 0;
+                var summaryWords = new List<string>();
 
-				totalCharacters += word.Length + 1;
-				if (totalCharacters > maxlength)
-					break;
-			}
+                foreach (var word in words)
+                {
+                    summaryWords.Add(word);
 
-			//Note that no words are cut off since we Split them by ' '
-			//var summary = String.Join(" ", summaryWords) + "...";
-            //return summary;
+                    totalCharacters += word.Length + 1;
+                    if (totalCharacters > maxlength)
+                        break;
+                }
 
-            //This is the same code as above
-            return String.Join(" ", summaryWords) + "...";
+                //Note that no words are cut off since we Split them by ' '
+                //var summary = String.Join(" ", summaryWords) + "...";
+                //return summary;
+
+                //This is the same code as above
+                return String.Join(" ", summaryWords) + "...";
+            }
         }
     }
 }
