@@ -68,7 +68,16 @@ namespace ConsoleProject.Dates
     {
         static void Main(string[] args)
         {
-            
+            //Note that there is a White-Space character at the end of this string
+            var fullName = "June Cho ";
+
+            //This Trims the White-Space Before or After the String
+            Console.WriteLine("Trim: '{0}'", fullName.Trim());
+
+            //Changes String to ALL-CAPS
+            Console.WriteLine("ToUpper: '{0}'", fullName.ToUpper());
+
+
         }
     }
 }
