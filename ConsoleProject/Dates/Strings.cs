@@ -91,7 +91,11 @@ namespace ConsoleProject.Dates
             Console.WriteLine("First Name: " + names[0]);
             Console.WriteLine("Last Name: " + names[1]);
 
+            //Replace
+            //All these Method calls returns NEW strings
+            Console.WriteLine(fullName.Replace("June", "MJ"));
 
+            //Validating 
 
         }
     }
