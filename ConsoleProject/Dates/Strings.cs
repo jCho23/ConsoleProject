@@ -64,10 +64,11 @@
 
 namespace ConsoleProject.Dates
 {
-    public class Strings
+    class StringsDemo
     {
-        public Strings()
+        static void Main(string[] args)
         {
+            
         }
     }
 }
