@@ -20,21 +20,44 @@ namespace ConsoleProject.Texts
     {
         static void Main(string[] args)
         {
-            var builder = new StringBuilder();
+            //You can also start the StringBuilder with a String
+            var builder = new StringBuilder("StringBuilder");
+
+            //**NOTE: You CANNOT search within StringBuilder**
+
             //Methods of StringBuilders
             //This '-' is repeated 10 times here
             builder.Append('-', 10);
 
             //This will insert "Header"
-            builder.AppendLine();
-            builder.Append("Header");
-            builder.AppendLine();
-            builder.Append('-', 10);
+
+            //**NOTE: Since StringBuilder(hover over Append) Returns StringBuilder,
+            //we can CHAIN these methods**
+            builder
+                .AppendLine()
+                .Append("Header")
+                .AppendLine()
+                .Append('-', 10);
 
             //Replace
             builder.Replace('-', '*');
 
+            //Remove
+            //This Removes the top row of characters since there are only 10
+            builder.Remove(0, 10);
+
+            //Insert
+            //Here we are adding 10 '-' at the beginning of the StringBuilder
+            builder.Insert(0, new string('-', 10));
             Console.WriteLine(builder);
+
+            //Indexer
+            //This is how you access indiviual characters in a StringBuilder
+            //Here, we are getting the first character
+            Console.WriteLine("First Character: " + builder[0]);
+
+
+
         }
     }
 }
