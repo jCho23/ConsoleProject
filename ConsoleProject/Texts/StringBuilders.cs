@@ -31,6 +31,9 @@ namespace ConsoleProject.Texts
             builder.AppendLine();
             builder.Append('-', 10);
 
+            //Replace
+            builder.Replace('-', '*');
+
             Console.WriteLine(builder);
         }
     }
