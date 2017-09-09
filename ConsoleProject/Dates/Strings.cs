@@ -37,6 +37,16 @@
 //int j = Convert.Int32(s);
 
 //Converting Numbers to Strings
+//int i = 1234;
+
+//string s = i.ToString(); == "1234"
+//You can use Format String
+//Here, "C" represents Currency
+//string t =i.ToString("C"); == "$1,234.00"
+//IF you don't want decimal points, you can use "C0"
+//string t = i.ToString("C0"); == "$1,234"
+
+
 
 namespace ConsoleProject.Dates
 {
