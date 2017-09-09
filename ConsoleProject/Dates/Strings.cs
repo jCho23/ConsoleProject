@@ -20,7 +20,9 @@
 //Replace ('a', '!')
 //i.e Replace ('june', 'june23')
 
-
+//Null Checking
+//String.IsNullOrEmpty(str)
+//String.ISNullOrWhiteSpace(str)
 
 namespace ConsoleProject.Dates
 {
