@@ -29,6 +29,12 @@
 //str.Split(' ')
 
 //Converting Strings to numbers
+//string s = "1234";
+//Here, these are the two ways to Convert Strings to Numbers
+//int i = int.Parse(s);
+//Easier and safer to use Int32 becuase if the string is null or empty,
+//This method returns the default value, which is 0
+//int j = Convert.Int32(s);
 
 namespace ConsoleProject.Dates
 {
