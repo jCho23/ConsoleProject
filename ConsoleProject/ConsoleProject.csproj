@@ -11,5 +11,6 @@
     <Folder Include="ControlFlow\" />
     <Folder Include="ArraysAndLists\" />
     <Folder Include="Dates\" />
+    <Folder Include="Texts\" />
   </ItemGroup>
 </Project>
