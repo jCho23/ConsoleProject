@@ -77,6 +77,16 @@ namespace ConsoleProject.Dates
             //Changes String to ALL-CAPS
             Console.WriteLine("ToUpper: '{0}'", fullName.ToUpper());
 
+            //This is how you split Strings, in this case fullName
+            //Notice that we are using SubString here
+            var index = fullName.IndexOf(' ');
+            var firstName = fullName.Substring(0, index);
+            var lastName = fullName.Substring(index + 1);
+            Console.WriteLine("First Name: " + firstName);
+            Console.WriteLine("Last Name: " + lastName);
+
+
+
 
         }
     }
