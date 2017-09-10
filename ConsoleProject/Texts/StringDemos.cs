@@ -34,11 +34,48 @@ namespace ConsoleProject.Texts
         //    var message = isConsecutive ? "Consecutive" : "Not Consecutive";
         //    Console.WriteLine(message);
 
-        //}
-
 
         //Demo 2
+        //Ask the User to enter a time value in 24hr format (i.e. 14:00)
+        //A valid time should be between 00;00-23:59
+        //IF the time is valid == Display "OK"
+        //Else == Display Invalid Time
+        //If the user enters nothing == Display Invalid Time
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("Enter a time Military style: ");
+        //    var input = Console.ReadLine();
 
+        //    if (String.IsNullOrWhiteSpace(input))
+        //    {
+        //        Console.WriteLine("Invalid Time");
+        //        return;
+        //    }
+
+        //    var components = input.Split(':');
+        //    if (components.Length !=2)
+        //    {
+        //        Console.WriteLine("Invalid Time");
+        //        return;
+        //    }
+
+        //    try
+        //    {
+        //        var hour = Convert.ToInt32(components[0]);
+        //        var minute = Convert.ToInt32(components[1]);
+
+        //        if (hour >= 0 && hour <= 23 && minute <=59)
+        //            Console.WriteLine("OK TIME");
+        //        else
+        //            Console.WriteLine("Invalid Time");
+        //    }
+
+        //    catch (Exception)
+        //    {
+        //        Console.WriteLine("Invalid Time");
+        //    }
+
+        //}
 
 
     }
