@@ -21,6 +21,7 @@ namespace ConsoleProject.FilesAndDirectory
         //File and FileInfo
         static void Main(string[] args)
         {
+            //File (Static Methods)
             var path = @"c:\somefile.jpg";
 
             File.Copy(@"c:\temp\myfile.jpg", @"d:\temp\myfile.jpg", true);
@@ -33,7 +34,20 @@ namespace ConsoleProject.FilesAndDirectory
             var content = File.ReadAllText(path);
 
 
+            //FileInfo (Instance Methods)
+            var fileInfo = new FileInfo(path);
+            fileInfo.CopyTo("...");
+            fileInfo.Delete();
+
+            //This is not a Method, this is a Property
+            if (fileInfo.Exists)
+            {
+                //
+            }
+
+           
         }
+
 
 
     }
