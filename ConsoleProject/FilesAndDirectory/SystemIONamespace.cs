@@ -81,6 +81,13 @@ namespace ConsoleProject.FilesAndDirectory
 
             //Here, I can use PATH to get the extension of the file (.sln)
             Console.WriteLine("Extension: " + Path.GetExtension(path)); 
+
+            //GetFileName
+            Console.WriteLine("File Name: " +Path.GetFileName(path));
+
+            //GetFileNameWithoutExtension
+            Console.WriteLine("File Name without Extension: " + Path.GetFileNameWithoutExtension(path));
+
         }
 
     }
