@@ -51,7 +51,7 @@ namespace ConsoleProject.FilesAndDirectory
 
         //static void Main(string[] args)
         //{
-        //    //Directory
+        ////Directory
         //    var path = @"c:\users\junecho\projects";
 
         //    Directory.CreateDirectory(path);
@@ -67,11 +67,21 @@ namespace ConsoleProject.FilesAndDirectory
         //    Directory.Exists("...");
 
 
-        //    //DirectoryInfo
+        ////DirectoryInfo
         //    var directoryInfo = new DirectoryInfo("...");
         //    directoryInfo.GetFiles();
         //    directoryInfo.GetDirectories();
         //}
+
+
+        ////Path
+        static void Main(string[] args)
+        {
+            var path = @"c:\projects\someFile\ConsoleProject.sln";
+
+            //Here, I can use PATH to get the extension of the file (.sln)
+            Console.WriteLine("Extension: " + Path.GetExtension(path)); 
+        }
 
     }
 }
