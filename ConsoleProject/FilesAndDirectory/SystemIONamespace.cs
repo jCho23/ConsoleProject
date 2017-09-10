@@ -75,22 +75,22 @@ namespace ConsoleProject.FilesAndDirectory
 
 
         ////Path
-        static void Main(string[] args)
-        {
-            var path = @"c:\projects\someFile\ConsoleProject.sln";
+        //static void Main(string[] args)
+        //{
+        //    var path = @"c:\projects\someFile\ConsoleProject.sln";
 
-            //Here, I can use PATH to get the extension of the file (.sln)
-            Console.WriteLine("Extension: " + Path.GetExtension(path)); 
+        //    //Here, I can use PATH to get the extension of the file (.sln)
+        //    Console.WriteLine("Extension: " + Path.GetExtension(path)); 
 
-            //GetFileName
-            Console.WriteLine("File Name: " +Path.GetFileName(path));
+        //    //GetFileName
+        //    Console.WriteLine("File Name: " +Path.GetFileName(path));
 
-            //GetFileNameWithoutExtension
-            Console.WriteLine("File Name without Extension: " + Path.GetFileNameWithoutExtension(path));
+        //    //GetFileNameWithoutExtension
+        //    Console.WriteLine("File Name without Extension: " + Path.GetFileNameWithoutExtension(path));
 
-            //GetDirectoryName
-            Console.WriteLine("Directory Name: " + Path.GetDirectoryName(path));
-        }
+        //    //GetDirectoryName
+        //    Console.WriteLine("Directory Name: " + Path.GetDirectoryName(path));
+        //}
 
     }
 }
