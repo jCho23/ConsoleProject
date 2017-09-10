@@ -1,0 +1,10 @@
+﻿using System;
+namespace ConsoleProject.FilesAndDirectory
+{
+	public class System
+	{
+		public System()
+		{
+		}
+	}
+}

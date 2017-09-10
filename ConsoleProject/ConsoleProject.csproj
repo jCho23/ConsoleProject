@@ -12,5 +12,6 @@
     <Folder Include="ArraysAndLists\" />
     <Folder Include="Dates\" />
     <Folder Include="Texts\" />
+    <Folder Include="FilesAndDirectory\" />
   </ItemGroup>
 </Project>

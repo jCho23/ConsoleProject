@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{3C71F35F-8023-4C10-BB48-05F0080F6757}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleProject/Texts/ProceduralProgramming.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleProject/FilesAndDirectory/SystemIONamespace.cs">
     <Files>
-      <File FileName="ConsoleProject/Texts/StringBuilders.cs" Line="13" Column="11" />
-      <File FileName="ConsoleProject/Texts/StringDemos.cs" Line="85" Column="23" />
-      <File FileName="ConsoleProject/Texts/ProceduralProgramming.cs" Line="5" Column="18" />
+      <File FileName="ConsoleProject/FilesAndDirectory/System.IONamespace" Line="1" Column="1" />
+      <File FileName="ConsoleProject/FilesAndDirectory/SystemIONamespace.cs" Line="4" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

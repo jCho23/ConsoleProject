@@ -39,42 +39,42 @@ namespace ConsoleProject.Texts
 
 
     //Demo 2
-    internal class ProceduralProgramming
-    {
-        static void Main(string[] args)
-        {
-            var numbers = new List<int>();
+    //internal class ProceduralProgramming
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        var numbers = new List<int>();
 
-            while (true)
-            {
-                Console.WriteLine("Enter a number (or type 'Quit' to Exit): ");
-                var input = Console.ReadLine();
+    //        while (true)
+    //        {
+    //            Console.WriteLine("Enter a number (or type 'Quit' to Exit): ");
+    //            var input = Console.ReadLine();
 
-                if (input.ToLower() == "quit")
-                    break;
+    //            if (input.ToLower() == "quit")
+    //                break;
 
-                numbers.Add(Convert.ToInt32(input));
-            }
+    //            numbers.Add(Convert.ToInt32(input));
+    //        }
 
-            //We can put this code snippet below right into the CW Method
-            //var uniques = GetUniqueNumbers(numbers);
+    //        //We can put this code snippet below right into the CW Method
+    //        //var uniques = GetUniqueNumbers(numbers);
 
-            Console.WriteLine("Unique Numbers: ");
-            foreach (var number in GetUniqueNumbers(numbers)) 
-                Console.WriteLine(number);
-        }
+    //        Console.WriteLine("Unique Numbers: ");
+    //        foreach (var number in GetUniqueNumbers(numbers)) 
+    //            Console.WriteLine(number);
+    //    }
 
-        public static List<int> GetUniqueNumbers(List<int> numbers)
-        {
-            var uniques = new List<int>();
-            foreach (var number in numbers)
-            {
-                if (!uniques.Contains(number))
-                    uniques.Add(number);
-            }
-            return uniques;
-        }
-    }
+    //    public static List<int> GetUniqueNumbers(List<int> numbers)
+    //    {
+    //        var uniques = new List<int>();
+    //        foreach (var number in numbers)
+    //        {
+    //            if (!uniques.Contains(number))
+    //                uniques.Add(number);
+    //        }
+    //        return uniques;
+    //    }
+    //}
 
 }
 
