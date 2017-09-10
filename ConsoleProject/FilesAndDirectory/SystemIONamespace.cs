@@ -88,6 +88,8 @@ namespace ConsoleProject.FilesAndDirectory
             //GetFileNameWithoutExtension
             Console.WriteLine("File Name without Extension: " + Path.GetFileNameWithoutExtension(path));
 
+            //GetDirectoryName
+            Console.WriteLine("Directory Name: " + Path.GetDirectoryName(path));
         }
 
     }
