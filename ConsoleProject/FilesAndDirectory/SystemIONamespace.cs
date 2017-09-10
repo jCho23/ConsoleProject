@@ -51,9 +51,24 @@ namespace ConsoleProject.FilesAndDirectory
 
         static void Main(string[] args)
         {
-			var path = @"c:\temp\someFile";
+            //Directory
+            var path = @"c:\users\junecho\projects";
 
             Directory.CreateDirectory(path);
+            //Here, "*.*" means ALL FILES, you also search by File Types (i.e. "*.sln*")
+            var files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories);
+            foreach (var file in files)
+                Console.WriteLine(file);
+
+            var directories = Directory.GetDirectories(path, "*.*", SearchOption.AllDirectories);
+            foreach (var directory in directories)
+                Console.WriteLine(directory);
+
+            Directory.Exists("...");
+
+
+            //DirectoryInfo
+
         }
 
     }
