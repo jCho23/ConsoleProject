@@ -77,6 +77,26 @@ namespace ConsoleProject.Texts
 
         //}
 
+        //Demo3
+        //Ask the user to enter an English word
+        //Count the number of vowels, Caps do not matter
+        //Diplay the number of vowels
 
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("Enter a word: ");
+        //    //Notice that we used ToLower here to count for "A" and "a"
+        //    var input = Console.ReadLine().ToLower();
+
+        //    var vowels = new List<char>(new char[] { 'a', 'e', 'i', 'o', 'u' });
+        //    var vowelsCount = 0;
+        //    foreach (var character in input)
+        //    {
+        //        if (vowels.Contains(character))
+        //            vowelsCount++;
+        //    }
+
+        //    Console.WriteLine(vowelsCount);
+        //}
     }
 }
