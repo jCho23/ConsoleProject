@@ -49,30 +49,29 @@ namespace ConsoleProject.FilesAndDirectory
         //Directory and DirectoryPath
 
 
-        static void Main(string[] args)
-        {
-            //Directory
-            var path = @"c:\users\junecho\projects";
+        //static void Main(string[] args)
+        //{
+        //    //Directory
+        //    var path = @"c:\users\junecho\projects";
 
-            Directory.CreateDirectory(path);
-            //Here, "*.*" means ALL FILES, you also search by File Types (i.e. "*.sln*")
-            var files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories);
-            foreach (var file in files)
-                Console.WriteLine(file);
+        //    Directory.CreateDirectory(path);
+        //    //Here, "*.*" means ALL FILES, you also search by File Types (i.e. "*.sln*")
+        //    var files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories);
+        //    foreach (var file in files)
+        //        Console.WriteLine(file);
 
-            var directories = Directory.GetDirectories(path, "*.*", SearchOption.AllDirectories);
-            foreach (var directory in directories)
-                Console.WriteLine(directory);
+        //    var directories = Directory.GetDirectories(path, "*.*", SearchOption.AllDirectories);
+        //    foreach (var directory in directories)
+        //        Console.WriteLine(directory);
 
-            Directory.Exists("...");
+        //    Directory.Exists("...");
 
 
-            //DirectoryInfo
-            var directoryInfo = new DirectoryInfo("...");
-            directoryInfo.GetFiles();
-            directoryInfo.GetDirectories();
-
-        }
+        //    //DirectoryInfo
+        //    var directoryInfo = new DirectoryInfo("...");
+        //    directoryInfo.GetFiles();
+        //    directoryInfo.GetDirectories();
+        //}
 
     }
 }
