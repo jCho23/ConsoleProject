@@ -12,13 +12,29 @@
 //DirectoryInfo: Provides INSTANCE Methods (large number of operations)
 
 //Path: Provides Methods to work with a String that contains a File or Directory Path information
+using System.IO;
 
 namespace ConsoleProject.FilesAndDirectory
 {
     public class SystemIONamespace
     {
-        public SystemIONamespace()
+        //File and FileInfo
+        static void Main(string[] args)
         {
+            var path = @"c:\somefile.jpg";
+
+            File.Copy(@"c:\temp\myfile.jpg", @"d:\temp\myfile.jpg", true);
+
+            File.Delete(path);
+            if (File.Exists(path))
+            {
+                //
+            }
+            var content = File.ReadAllText(path);
+
+
         }
+
+
     }
 }
