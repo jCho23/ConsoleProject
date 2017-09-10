@@ -68,6 +68,9 @@ namespace ConsoleProject.FilesAndDirectory
 
 
             //DirectoryInfo
+            var directoryInfo = new DirectoryInfo("...");
+            directoryInfo.GetFiles();
+            directoryInfo.GetDirectories();
 
         }
 
