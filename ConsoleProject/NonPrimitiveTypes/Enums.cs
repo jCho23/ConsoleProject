@@ -1,7 +1,7 @@
-﻿using System;
+﻿//using System;
 
-namespace ConsoleProject
-{
+//namespace ConsoleProject
+//{
     #region Enums
     //Enum is a set of name/vale pairs (constants)
 
@@ -79,4 +79,4 @@ namespace ConsoleProject
     //    }
     //}
     #endregion
-}
+//}

@@ -1,11 +1,11 @@
-﻿using System;
-namespace ConsoleProject
-{
-    public class Calculator
-    {
-       public int Add(int a, int b)
-        {
-            return a + b;
-        }
-    }
-}
+﻿//using System;
+//namespace ConsoleProject
+//{
+//    public class Calculator
+//    {
+//       public int Add(int a, int b)
+//        {
+//            return a + b;
+//        }
+//    }
+//}

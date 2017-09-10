@@ -1,4 +1,4 @@
-﻿using System;
+﻿//using System;
 
 //System.IO
 
@@ -12,13 +12,13 @@
 //DirectoryInfo: Provides INSTANCE Methods (large number of operations)
 
 //Path: Provides Methods to work with a String that contains a File or Directory Path information
-using System.IO;
-using System.Runtime.InteropServices;
+//using System.IO;
+//using System.Runtime.InteropServices;
 
-namespace ConsoleProject.FilesAndDirectory
-{
-    public class SystemIONamespace
-    {
+//namespace ConsoleProject.FilesAndDirectory
+//{
+    //public class SystemIONamespace
+    //{
         //File and FileInfo
         //static void Main(string[] args)
         //{
@@ -92,5 +92,5 @@ namespace ConsoleProject.FilesAndDirectory
         //    Console.WriteLine("Directory Name: " + Path.GetDirectoryName(path));
         //}
 
-    }
-}
+//    }
+//}

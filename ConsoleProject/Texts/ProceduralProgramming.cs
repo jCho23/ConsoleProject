@@ -1,11 +1,11 @@
-﻿using System;
+﻿//using System;
 
 //Procedural Programming: A programming paradigm based on procedure calls
 //Object-Oriented Programming: A programming based on objects
-using System.Collections.Generic;
+//using System.Collections.Generic;
 
-namespace ConsoleProject.Texts
-{
+//namespace ConsoleProject.Texts
+//{
     ////First Demo
     //internal class ProceduralProgramming
     //{
@@ -76,5 +76,5 @@ namespace ConsoleProject.Texts
     //    }
     //}
 
-}
+//}
 

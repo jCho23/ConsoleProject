@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿//using System;
+//using System.Collections.Generic;
 
-namespace ConsoleProject.Texts
-{
-    public class StringDemos
-    {
+//namespace ConsoleProject.Texts
+//{
+    //public class StringDemos
+    //{
         //Demo 1
         //Ask the user to enter a few number seperated by a hyphen
         //Work out if the numbers are consecutive
@@ -98,5 +98,5 @@ namespace ConsoleProject.Texts
 
         //    Console.WriteLine(vowelsCount);
         //}
-    }
-}
+//    }
+//}
